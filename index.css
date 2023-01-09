@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400;
+}
+#inputEl{
+    display: block;
+    padding: 10;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+#saveBtn,#resetBtn,#autoBtn{
+    margin-top: 10;
+    background-color: brown;
+    font-size: 20;
+    padding: 10;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+ul{
+    margin-top: 20;
+    list-style: none;
+    padding-left: 0;
+}
+li{
+    margin-top: 15;
+}
+li a{
+    color: brown;
+    text-decoration: none;
+}
+li a:hover{
+    color: blue;
+    font-size: 18;
+}
